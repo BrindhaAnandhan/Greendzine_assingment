@@ -1,0 +1,149 @@
+body
+{
+    background-color: black !important;
+}
+
+#img1
+{
+    margin-top: 14px !important;
+    margin-left: 725px !important;
+    width: 40px !important;
+    height: 40px !important;
+    background: transparent url('images/Group 46.png') 0% 0% no-repeat padding-box !important;
+    mix-blend-mode: normal !important;
+    opacity: 1 !important;
+}
+#img2
+{
+    margin-top: -13px !important;
+    margin-left: 572px !important;
+    width: 71px !important;
+    height: 70px !important;
+    background: transparent url('images/moptro logo.png') 0% 0% no-repeat padding-box !important;
+    mix-blend-mode: normal !important;
+    opacity: 1 !important;
+}
+#notification
+{
+    margin-top: 11px !important;
+    margin-left: 635px !important;
+    text-align: center !important;
+    color: #36A546 !important;
+    width: 35px !important;
+    height: 35px !important;
+    background: #5E5E5EB5 0% 0% no-repeat padding-box !important;
+    /* box-shadow: inset 0px 4px 0px #00000040 !important; */
+    mix-blend-mode: normal !important;
+    border: 1px solid #FFFEFE00 !important;
+    opacity: 0.8 !important;
+    /* filter: blur(2px) !important; */
+    border-radius: 64px !important;
+}
+#search_bar
+{
+    border: none;
+    /* margin-left: 446px !important; */
+    margin-top:41px !important;
+    color:#36A546;
+    /* pointer-events: none !important; */
+    /* margin-left: -298px !important; */
+    margin-left: 446px;
+    width: 328px !important;
+    height: 45px !important;
+    background: #1A2C2C99 0% 0% no-repeat padding-box !important;
+    /* mix-blend-mode: normal !important; */
+    /* opacity: 1 !important; */
+    border-radius: 64px !important;
+    text-align: center !important;
+}
+
+
+#box
+{
+    margin-top: 5px !important;
+    padding-top: 10px;
+    padding-left: 10px !important;
+    margin-left: 442px !important;
+    width: 328px !important;
+    height: 465px !important;
+    /* background: #5E5E5E82 0% 0% no-repeat padding-box !important; */
+    box-shadow: inset 0px 4px 0px #00000040 !important;
+    mix-blend-mode: normal !important;
+    opacity: 0.8 !important;
+    /* filter: blur(2px) !important; */
+    border-radius: 30px !important;
+    color: white;
+}
+
+.card {
+    background: #5E5E5E82 0% 0% no-repeat padding-box !important;
+    padding: 10px;
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+}
+
+.gray-text{
+    color: lightgray
+}
+
+.green-text{
+    color: #36A546;
+}
+
+.orange-text{
+    color: orange;
+}
+
+.font-bold{
+    font-weight: 600 !important;
+}
+
+
+.home
+{
+    color: #36A546;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: 75px;
+
+}
+
+.contact
+{
+    color: #36A546;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 73px;
+}
+
+#Home
+{
+    margin-top: 59px !important;
+    margin-left: 430px !important;
+    width: 255px !important;
+    height: 61px !important;
+    background: #38383880 0% 0% no-repeat padding-box !important;
+    mix-blend-mode: normal !important;
+    border: 1px solid #000000 !important;
+    opacity: 1 !important;
+    border-radius: 30px !important;
+}
+#Emp
+{
+    margin-top: -63px !important;
+    margin-left: 591px  !important;
+    width: 178px !important;
+    height: 63px !important;
+    background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box !important;
+    box-shadow: inset 8px 4px 4px #00000040 !important;
+    mix-blend-mode: normal !important;
+    border: 1px solid #0F2323 !important;
+    opacity: 1 !important;
+    filter: blur(1px);   
+    border-radius: 30px !important;
+}
+
+#div
+{
+    margin-top: 105px;
+}
