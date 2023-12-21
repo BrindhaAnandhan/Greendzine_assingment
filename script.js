@@ -45,19 +45,13 @@ function validateLoginForm(event) {
         return;
     }
 
-    user = {
-        
-    }
-
-    if(email.value === 'Akash123@gmail.com' && password.value ==="Akash#123")
-    {
+    if (email.value === 'anil.m@greendzine.in' && password.value === "Anil#123") {
         alert('Login successful!');
-        window.location.href = 'C:/Users/Brindha/Interviews/Greendzine_source_code/home_page/index.html';
+        window.location.href = 'home_page/index.html';
     }
-    else
-    {
+    else {
         alert('Give valid Username and Password');
     }
 
-    
+
 }

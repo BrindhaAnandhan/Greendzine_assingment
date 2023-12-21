@@ -1,5 +1,4 @@
-#logo
-{
+#logo {
     margin-top: 160px;
     margin-left: 134px;
     width: 90px;
@@ -8,25 +7,24 @@
     mix-blend-mode: normal;
     opacity: 1;
 }
-body
-{
+
+body {
     background-color: black;
 }
-#title
-{
+
+#title {
     margin-top: 17px;
     margin-left: 108px;
     width: 146px;
     height: 20px;
     text-align: center;
     font-family: normal normal normal 16px/21px Mulish;
-    /* font-family: Mulish; */
     letter-spacing: 0.02px;
     color: #36A546CC;
     opacity: 1;
 }
-#email_box
-{
+
+#email_box {
     margin-top: 140px;
     margin-left: 61px;
     width: 238px;
@@ -37,9 +35,11 @@ body
     mix-blend-mode: normal;
     opacity: 1;
     border-radius: 47px;
+    border: none;
+    padding-left: 20px;
 }
-#password_box
-{
+
+#password_box {
     margin-top: 25px;
     margin-left: 61px;
     width: 238px;
@@ -50,12 +50,14 @@ body
     mix-blend-mode: normal;
     opacity: 1;
     border-radius: 47px;
+    border: none;
+    padding-left: 20px;
 }
-#login_box
-{
+
+#login_box {
     margin-top: 47px;
     margin-left: 61px;
-    width: 238px;
+    width: 255px;
     height: 42px;
     background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
     mix-blend-mode: normal;
@@ -63,11 +65,10 @@ body
     opacity: 1;
     border-radius: 47px;
 }
-#for_text
-{
+
+#for_text {
     margin-top: 26px;
-    margin-left: 113px;
-    /* text-align: center; */
+    margin-left: 134px;
     font: normal normal normal 15px/20px Mulish;
     letter-spacing: 0.02px;
     color: #36A546;

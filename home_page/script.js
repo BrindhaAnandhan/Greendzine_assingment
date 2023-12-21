@@ -43,16 +43,9 @@ function generateDashboard() {
     });
 }
 
-// let home = document.getElementById('Home');
-// home.addEventListener('click', homePageNavigator);
-
-// function homePageNavigator() {
-//     window.location.href = "C:/Users/Brindha/Interviews/Greendzine_source_code/home_page/index.html";
-// }
-
 let Emp = document.getElementById('Emp');
 Emp.addEventListener('click', empPageNavigator);
 
 function empPageNavigator() {
-    window.location.href = 'C:/Users/Brindha/Interviews/Greendzine_source_code/emp_page/index.html';
+    window.location.href = '../emp_page/index.html';
 }
