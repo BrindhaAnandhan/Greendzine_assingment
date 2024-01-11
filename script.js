@@ -11,7 +11,7 @@ function validateEmail(email) {
 
 function validatePassword(password) {
     // Customize these rules to match your password requirements
-    const minLength = 8;
+    const minLength = 10;
     const hasUpperCase = /[A-Z]/.test(password);
     const hasLowerCase = /[a-z]/.test(password);
     const hasNumber = /\d/.test(password);
@@ -45,7 +45,7 @@ function validateLoginForm(event) {
         return;
     }
 
-    if (email.value === 'anil.m@greendzine.in' && password.value === "Anil#123") {
+    if (email.value === 'Brindha@gmail.com' && password.value === "Brindha") {
         alert('Login successful!');
         window.location.href = 'home_page/index.html';
     }
