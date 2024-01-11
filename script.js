@@ -11,7 +11,7 @@ function validateEmail(email) {
 
 function validatePassword(password) {
     // Customize these rules to match your password requirements
-    const minLength = 10;
+    const minLength = 5;
     const hasUpperCase = /[A-Z]/.test(password);
     const hasLowerCase = /[a-z]/.test(password);
     const hasNumber = /\d/.test(password);
